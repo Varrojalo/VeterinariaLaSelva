@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Veterinaria La Selva</string>
+    <string name="title_home">Principal</string>
+    <string name="title_catalog">Catalogo</string>
+    <string name="title_user">Usuario</string>
+    <string name="slideAnuncios">anuncios</string>
+    <string name="tab_animales">ANIMALES</string>
+    <string name="tab_productos">PRODUCTOS</string>
+    <string name="desc_adopcion">Esta por adoptar a $NOMBRE$, para esto debe acercarse a la veterinaria para empezar los papeles de adopcion. Porfavor, escoja la hora y la fecha de su atencion para empezar los papeles de adopcion.</string>
+</resources>
