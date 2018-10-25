@@ -3779,7 +3779,7 @@ public final class R {
     public static final int navigation_home=0x7f080088;
     public static final int navigation_user=0x7f080089;
     public static final int never=0x7f08008a;
-    public static final int nombreAnimal=0x7f08008b;
+    public static final int edadAnimal =0x7f08008b;
     public static final int none=0x7f08008c;
     public static final int normal=0x7f08008d;
     public static final int notification_background=0x7f08008e;

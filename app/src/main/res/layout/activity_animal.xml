@@ -16,7 +16,7 @@
         tools:srcCompat="@tools:sample/avatars[0]" />
 
     <TextView
-        android:id="@+id/nombreAnimal"
+        android:id="@+id/edadAnimal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -42,7 +42,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/nombreAnimal" />
+        app:layout_constraintTop_toBottomOf="@+id/edadAnimal" />
 
     <LinearLayout
         android:id="@+id/hLayoutEdad"

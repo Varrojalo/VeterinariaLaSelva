@@ -6,59 +6,19 @@
     android:layout_height="match_parent"
     tools:context=".Catalogo">
 
-    <android.support.design.widget.TabLayout
-        android:id="@+id/tabLayout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/colorPrimaryDark"
-        app:layout_constraintTop_toTopOf="parent"
-        app:tabIndicatorColor="@color/colorTextLight"
-        app:tabIndicatorHeight="@dimen/tab_indicator_height"
-        app:tabSelectedTextColor="@color/colorTextLight"
-        app:tabTextColor="@color/colorTextLight">
-
-        <android.support.design.widget.TabItem
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/tab_animales" />
-
-        <android.support.design.widget.TabItem
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/tab_productos" />
-
-    </android.support.design.widget.TabLayout>
-
-    <LinearLayout
-        android:id="@+id/layout_productos"
-        android:layout_width="0dp"
-        android:layout_height="404dp"
-        android:orientation="vertical"
-        android:visibility="gone"
-        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tabLayout">
-
-        <android.support.v7.widget.RecyclerView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:scrollbars="vertical"
-            tools:listitem="@layout/item_producto" />
-    </LinearLayout>
-
     <LinearLayout
         android:id="@+id/layout_animales"
         android:layout_width="0dp"
-        android:layout_height="407dp"
+        android:layout_height="0dp"
         android:orientation="vertical"
         android:visibility="visible"
         app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tabLayout">
+        app:layout_constraintTop_toTopOf="parent">
 
         <android.support.v7.widget.RecyclerView
+            android:id="@+id/lista_animales"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scrollbars="vertical"
