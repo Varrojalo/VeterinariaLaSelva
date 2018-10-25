@@ -3679,7 +3679,7 @@ public final class R {
     public static final int bottomNavigationView=0x7f080024;
     public static final int btnAdoptar=0x7f080025;
     public static final int btnAtras=0x7f080026;
-    public static final int button=0x7f080027;
+    public static final int btnIniciarSesion =0x7f080027;
     public static final int button2=0x7f080028;
     public static final int button3=0x7f080029;
     public static final int button4=0x7f08002a;
@@ -3713,8 +3713,8 @@ public final class R {
     public static final int direct=0x7f080046;
     public static final int disableHome=0x7f080047;
     public static final int divider=0x7f080048;
-    public static final int editText=0x7f080049;
-    public static final int editText2=0x7f08004a;
+    public static final int inputUsuario =0x7f080049;
+    public static final int inputContraseña =0x7f08004a;
     public static final int editText3=0x7f08004b;
     public static final int editText4=0x7f08004c;
     public static final int editText5=0x7f08004d;
