@@ -17,7 +17,13 @@ public class Animal {
 
     public Animal() {
     }
-
+    public Animal(int id, String nombre, String foto, Date nacimiento)
+    {
+        this.id = id;
+        this.nombre = nombre;
+        this.foto = foto;
+        this.nacimiento = nacimiento;
+    }
     public Animal(int id, String nombre, String foto, String especie, String raza, Date nacimiento, Boolean vacuna) {
         this.id = id;
         this.nombre = nombre;
