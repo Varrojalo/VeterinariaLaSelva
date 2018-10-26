@@ -1,6 +1,7 @@
 package cl.inacap.veterinarialaselva.model.dto;
 
 import java.sql.Date;
+import java.util.Calendar;
 
 /**
  *
@@ -88,6 +89,17 @@ public class Animal {
 
     public void setVacuna(Boolean vacuna) {
         this.vacuna = vacuna;
+    }
+
+    public int getEdad()
+    {
+        int edad = 0;
+        Date actual = (java.sql.Date)Calendar.getInstance().getTime();
+        int añoActual = actual.getYear();
+        int añoNacimiento = this.nacimiento.getYear();
+
+        edad = añoActual-añoNacimiento;
+        return edad;
     }
 
     @Override

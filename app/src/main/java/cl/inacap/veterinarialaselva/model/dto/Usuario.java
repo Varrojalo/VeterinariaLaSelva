@@ -58,6 +58,8 @@ public class Usuario {
         this.correo = correo;
     }
 
+
+
     @Override
     public String toString() {
         return "Usuario{" + "id=" + id + ", nombre=" + nombre + ", foto=" + foto + ", contracena=" + contracena + ", correo=" + correo + '}';
