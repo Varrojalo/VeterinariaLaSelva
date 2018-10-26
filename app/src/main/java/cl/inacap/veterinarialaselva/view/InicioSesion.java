@@ -35,7 +35,8 @@ public class InicioSesion extends AppCompatActivity {
         boolean usuarioEncontrado = false;
 
         UsuarioDAO uDao = new UsuarioDAO();
-        ArrayList<Usuario> usuarios = uDao.obtenerUsuarios();
+        ArrayList<Usuario> usuarios = new ArrayList();
+        usuarios = uDao.obtenerUsuarios();
 
         for (int i = 0; i < usuarios.size();i++)
         {

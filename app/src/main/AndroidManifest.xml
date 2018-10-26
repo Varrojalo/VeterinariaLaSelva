@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="cl.inacap.veterinarialaselva">
-
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,24 +11,28 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".Principal"
+            android:name=".view.Principal"
             android:label="@string/app_name">
         </activity>
-        <activity android:name=".Catalogo" />
-        <activity android:name=".Usuario" />
+        <activity android:name=".view.Catalogo" />
+        <activity android:name=".view.VistaUsuario" />
         <activity
-            android:name=".Carga"
+            android:name=".view.Carga"
             android:label="@string/app_name">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
-        <activity android:name=".InicioSesion" />
-        <activity android:name=".Animal" />
-        <activity android:name=".Registro" />
-        <activity android:name=".Adopcion"></activity>
+        <activity
+            android:name=".view.InicioSesion"
+            android:label="@string/app_name">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+        <activity android:name=".view.VistaAnimal" />
+        <activity android:name=".view.Registro" />
+        <activity android:name=".view.Adopcion"></activity>
     </application>
 
 </manifest>

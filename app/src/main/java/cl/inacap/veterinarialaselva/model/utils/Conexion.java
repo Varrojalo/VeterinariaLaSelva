@@ -22,7 +22,7 @@ public class Conexion {
     public boolean conectar(){
         try{
             Class.forName("com.mysql.jdbc.Driver");
-            String cadena = "jdbc:mysql://"+SERVER+":3306/"+DATABASE;
+            String cadena = "jdbc:mysql://"+SERVER+":9999/"+DATABASE;
             this.conexion = DriverManager.getConnection(cadena, USER, PASSWORD);
             return true;
         }
