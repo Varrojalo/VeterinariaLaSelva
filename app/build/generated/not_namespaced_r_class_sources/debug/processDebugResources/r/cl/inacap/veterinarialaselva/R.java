@@ -3676,7 +3676,7 @@ public final class R {
     public static final int beginning=0x7f080021;
     public static final int blocking=0x7f080022;
     public static final int bottom=0x7f080023;
-    public static final int bottomNavigationView=0x7f080024;
+    public static final int navegacion =0x7f080024;
     public static final int btnAdoptar=0x7f080025;
     public static final int btnAtras=0x7f080026;
     public static final int btnIniciarSesion=0x7f080027;
@@ -3714,11 +3714,11 @@ public final class R {
     public static final int disableHome=0x7f080047;
     public static final int divider=0x7f080048;
     public static final int edadAnimal=0x7f080049;
-    public static final int editText3=0x7f08004a;
-    public static final int editText4=0x7f08004b;
-    public static final int editText5=0x7f08004c;
+    public static final int inputNombreUsuario =0x7f08004a;
+    public static final int inputEmail =0x7f08004b;
+    public static final int inputContrasena =0x7f08004c;
     public static final int editText6=0x7f08004d;
-    public static final int editText7=0x7f08004e;
+    public static final int inputHora =0x7f08004e;
     public static final int editText8=0x7f08004f;
     public static final int edit_query=0x7f080050;
     public static final int end=0x7f080051;
@@ -3748,10 +3748,10 @@ public final class R {
     public static final int ifRoom=0x7f080069;
     public static final int image=0x7f08006a;
     public static final int imageView2=0x7f08006b;
-    public static final int imageView3=0x7f08006c;
+    public static final int fotoUsuario =0x7f08006c;
     public static final int imageView4=0x7f08006d;
-    public static final int imageView5=0x7f08006e;
-    public static final int imageView6=0x7f08006f;
+    public static final int logoApp =0x7f08006e;
+    public static final int logoApp =0x7f08006f;
     public static final int info=0x7f080070;
     public static final int inputContraseña=0x7f080071;
     public static final int inputUsuario=0x7f080072;
@@ -3773,7 +3773,7 @@ public final class R {
     public static final int middle=0x7f080082;
     public static final int mini=0x7f080083;
     public static final int multiply=0x7f080084;
-    public static final int navigation=0x7f080085;
+    public static final int navegacionPrincipal =0x7f080085;
     public static final int navigation_catalog=0x7f080086;
     public static final int navigation_header_container=0x7f080087;
     public static final int navigation_home=0x7f080088;
@@ -3847,7 +3847,7 @@ public final class R {
     public static final int text2=0x7f0800cc;
     public static final int textSpacerNoButtons=0x7f0800cd;
     public static final int textSpacerNoTitle=0x7f0800ce;
-    public static final int textView10=0x7f0800cf;
+    public static final int tituloApp =0x7f0800cf;
     public static final int textView11=0x7f0800d0;
     public static final int textView12=0x7f0800d1;
     public static final int textView13=0x7f0800d2;
