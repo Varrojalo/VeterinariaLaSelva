@@ -1,5 +1,8 @@
 package cl.inacap.veterinarialaselva.model.dto;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class Usuario {
     private int id;
     private String nombre;
@@ -58,7 +61,16 @@ public class Usuario {
         this.correo = correo;
     }
 
+    public Map<String, Object> toMap() {
+        HashMap<String, Object> result = new HashMap();
+        result.put("id", id);
+        result.put("nombre", nombre);
+        result.put("contrasena", contracena);
+        result.put("email", correo);
+        result.put("foto", foto);
 
+        return result;
+    }
 
     @Override
     public String toString() {

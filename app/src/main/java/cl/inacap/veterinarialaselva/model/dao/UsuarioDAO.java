@@ -1,12 +1,19 @@
 package cl.inacap.veterinarialaselva.model.dao;
 
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
 import cl.inacap.veterinarialaselva.model.utils.Conexion;
 import cl.inacap.veterinarialaselva.model.dto.Usuario;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 
 public class UsuarioDAO extends Conexion{
+    private DatabaseReference referenciaBD = FirebaseDatabase.getInstance().getReference();
+
     public void agregarUsuario(Usuario usuario){
         try{
             this.conectar();
@@ -26,6 +33,12 @@ public class UsuarioDAO extends Conexion{
         finally{
             this.desconectar();
         }
+    }
+
+    public void agregar (Usuario usuario)
+    {
+        String userId = usuario.getNombre()+usuario.getId();
+        referenciaBD.child("usuarios").child(userId).setValue(usuario);
     }
 
     public ArrayList<Usuario> obtenerUsuarios(){
@@ -77,6 +90,12 @@ public class UsuarioDAO extends Conexion{
         eliminarUsuario(usuario.getId());
     }
 
+    public void eliminar(Usuario usuario)
+    {
+        String userId = usuario.getNombre()+usuario.getId();
+        referenciaBD.child("usuarios").child(userId).removeValue();
+    }
+
     public void actualizarNombre(String nombre, int id){
         try{
             this.conectar();
@@ -110,5 +129,6 @@ public class UsuarioDAO extends Conexion{
             this.desconectar();
         }
     }
+
 }
 
