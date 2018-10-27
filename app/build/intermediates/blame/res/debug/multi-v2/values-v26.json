@@ -4,26 +4,7 @@
             "outputFile": "C:\\Users\\AlonsoRV\\Google Drive\\VeterinariaLaSelva\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v26\\values-v26.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\AlonsoRV\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a538ce66389815b0f18f3571cfd72e4a\\res\\values-v26\\values-v26.xml",
-                    "from": {
-                        "startLines": "2,3,4,8,12,16",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "55,130,217,431,657,896",
-                        "endLines": "2,3,7,11,15,16",
-                        "endColumns": "74,86,12,12,12,92",
-                        "endOffsets": "125,212,426,652,891,984"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,8,12,20",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "55,130,217,431,657,1140",
-                        "endLines": "2,3,7,11,15,20",
-                        "endColumns": "74,86,12,12,12,92",
-                        "endOffsets": "125,212,426,652,891,1228"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\AlonsoRV\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.1.aar\\41f88e26245386d7fdf95f2a241c96fd\\res\\values-v26\\values-v26.xml",
+                    "source": "C:\\Users\\AlonsoRV\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.1.aar\\fe375a694d31e3a1ec428573c265dec9\\res\\values-v26\\values-v26.xml",
                     "from": {
                         "startLines": "2,6",
                         "startColumns": "4,4",
@@ -39,6 +20,25 @@
                         "endLines": "19,21",
                         "endColumns": "12,96",
                         "endOffsets": "1135,1325"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\AlonsoRV\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\d1238cd3020502f1299fc0ddf7061ae9\\res\\values-v26\\values-v26.xml",
+                    "from": {
+                        "startLines": "2,3,4,8,12,16",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,130,217,431,657,896",
+                        "endLines": "2,3,7,11,15,16",
+                        "endColumns": "74,86,12,12,12,92",
+                        "endOffsets": "125,212,426,652,891,984"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,8,12,20",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,130,217,431,657,1140",
+                        "endLines": "2,3,7,11,15,20",
+                        "endColumns": "74,86,12,12,12,92",
+                        "endOffsets": "125,212,426,652,891,1228"
                     }
                 }
             ]
