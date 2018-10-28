@@ -26,7 +26,6 @@ public class VistaCatalogo extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_catalogo);
-
         AnimalDAO animalDAO = null;
         listaAnimales = animalDAO.obtenerAnimales();
 

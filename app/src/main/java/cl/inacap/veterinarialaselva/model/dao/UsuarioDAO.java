@@ -21,7 +21,7 @@ public class UsuarioDAO extends Conexion{
             PreparedStatement st = conexion.prepareStatement(sql);
             st.setInt(1, usuario.getId());
             st.setString(2, usuario.getNombre());
-            st.setString(3, usuario.getFoto());
+            st.setInt(3, usuario.getFoto());
             st.setString(4, usuario.getContracena());
             st.setString(5, usuario.getCorreo());
 
@@ -53,7 +53,7 @@ public class UsuarioDAO extends Conexion{
                 Usuario usuario = new Usuario();
                 usuario.setId(rs.getInt(1));
                 usuario.setNombre(rs.getString(2));
-                usuario.setFoto(rs.getString(3));
+                usuario.setFoto(rs.getInt(3));
                 usuario.setContracena(rs.getString(4));
                 usuario.setCorreo(rs.getString(5));
                 usuarios.add(usuario);

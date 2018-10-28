@@ -10,7 +10,7 @@ import java.util.Calendar;
 public class Animal {
     private int id;
     private String nombre;
-    private String foto;
+    private int foto;
     private String especie;
     private String raza;
     private Date nacimiento;
@@ -18,14 +18,14 @@ public class Animal {
 
     public Animal() {
     }
-    public Animal(int id, String nombre, String foto, Date nacimiento)
+    public Animal(int id, String nombre, int foto, Date nacimiento)
     {
         this.id = id;
         this.nombre = nombre;
         this.foto = foto;
         this.nacimiento = nacimiento;
     }
-    public Animal(int id, String nombre, String foto, String especie, String raza, Date nacimiento, Boolean vacuna) {
+    public Animal(int id, String nombre, int foto, String especie, String raza, Date nacimiento, Boolean vacuna) {
         this.id = id;
         this.nombre = nombre;
         this.foto = foto;
@@ -51,11 +51,11 @@ public class Animal {
         this.nombre = nombre;
     }
 
-    public String getFoto() {
+    public int getFoto() {
         return foto;
     }
 
-    public void setFoto(String foto) {
+    public void setFoto(int foto) {
         this.foto = foto;
     }
 

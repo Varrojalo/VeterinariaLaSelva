@@ -6,14 +6,14 @@ import java.util.Map;
 public class Usuario {
     private int id;
     private String nombre;
-    private String foto;
+    private int foto;
     private String contracena;
     private String correo;
 
     public Usuario() {
     }
 
-    public Usuario(int id, String nombre, String foto, String contracena, String correo) {
+    public Usuario(int id, String nombre, int foto, String contracena, String correo) {
         this.id = id;
         this.nombre = nombre;
         this.foto = foto;
@@ -37,11 +37,11 @@ public class Usuario {
         this.nombre = nombre;
     }
 
-    public String getFoto() {
+    public int getFoto() {
         return foto;
     }
 
-    public void setFoto(String foto) {
+    public void setFoto(int foto) {
         this.foto = foto;
     }
 

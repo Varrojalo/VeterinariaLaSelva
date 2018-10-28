@@ -18,7 +18,7 @@ public class AnimalDAO extends Conexion{
             PreparedStatement st = conexion.prepareStatement(sql);
             st.setInt(1, animal.getId());
             st.setString(2, animal.getNombre());
-            st.setString(3, animal.getFoto());
+            st.setInt(3, animal.getFoto());
             st.setString(4, animal.getEspecie());
             st.setString(5, animal.getRaza());
             st.setDate(6, animal.getNacimiento());
@@ -46,7 +46,7 @@ public class AnimalDAO extends Conexion{
                 Animal animal = new Animal();
                 animal.setId(rs.getInt(1));
                 animal.setNombre(rs.getString(2));
-                animal.setFoto(rs.getString(3));
+                animal.setFoto(rs.getInt(3));
                 animal.setEspecie(rs.getString(4));
                 animal.setRaza(rs.getString(5));
                 animal.setNacimiento(rs.getDate(6));
