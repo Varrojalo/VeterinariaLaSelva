@@ -14,7 +14,7 @@
             android:name=".view.Principal"
             android:label="@string/app_name">
         </activity>
-        <activity android:name=".view.Catalogo" />
+        <activity android:name=".view.VistaCatalogo" />
         <activity android:name=".view.VistaUsuario" />
         <activity
             android:name=".view.Carga"

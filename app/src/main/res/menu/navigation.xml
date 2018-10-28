@@ -15,5 +15,10 @@
         android:id="@+id/navigation_user"
         android:icon="@drawable/ic_user_black_24dp"
         android:title="@string/title_user" />
-
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="@string/busqueda"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView" />
 </menu>

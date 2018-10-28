@@ -3,6 +3,7 @@
     <string name="title_home">Principal</string>
     <string name="title_catalog">Catalogo</string>
     <string name="title_user">Usuario</string>
+    <string name="busqueda">Busqueda</string>
     <string name="slideAnuncios">anuncios</string>
     <string name="tab_animales">ANIMALES</string>
     <string name="tab_productos">PRODUCTOS</string>

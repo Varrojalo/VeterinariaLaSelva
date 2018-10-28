@@ -26,7 +26,7 @@ public class Principal extends AppCompatActivity {
                     return true;
                 case R.id.navigation_catalog:
                     mTextMessage.setText(R.string.title_catalog);
-                    Intent intento = new Intent(Principal.this,Catalogo.class);
+                    Intent intento = new Intent(Principal.this,VistaCatalogo.class);
                     Principal.this.startActivity(intento);
                     return true;
                 case R.id.navigation_user:
