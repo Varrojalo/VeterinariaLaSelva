@@ -1,7 +1,12 @@
 package cl.inacap.veterinarialaselva.model.dao;
 
+import android.support.annotation.NonNull;
+
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 import cl.inacap.veterinarialaselva.model.utils.Conexion;
 import cl.inacap.veterinarialaselva.model.dto.Usuario;
@@ -68,6 +73,26 @@ public class UsuarioDAO extends Conexion{
             this.desconectar();
         }
     }
+
+    public ArrayList<Usuario> obtenerUsuarios2()
+    {
+        ArrayList<Usuario> usuarios = new ArrayList();
+        referenciaBD.child("usuarios").addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                Map<String, Object> td = (HashMap<String,Object>) dataSnapshot.getValue();
+
+                ArrayList<Object> values = (ArrayList<Object>) td.values();
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {
+
+            }
+        });
+        return usuarios;
+    }
+
 
     public void eliminarUsuario(int id){
         try{

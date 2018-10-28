@@ -9,10 +9,12 @@ import android.support.v7.widget.SearchView;
 import android.view.Menu;
 import android.widget.ListView;
 
+import java.sql.Date;
 import java.util.ArrayList;
 
 import cl.inacap.veterinarialaselva.R;
 import cl.inacap.veterinarialaselva.controller.AdapterDatos;
+import cl.inacap.veterinarialaselva.controller.AnimalAdapter;
 import cl.inacap.veterinarialaselva.model.dao.AnimalDAO;
 import cl.inacap.veterinarialaselva.model.dto.Animal;
 
@@ -26,11 +28,16 @@ public class VistaCatalogo extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_catalogo);
-        AnimalDAO animalDAO = null;
-        listaAnimales = animalDAO.obtenerAnimales();
 
-        listViewAnimales = findViewById(R.id.lista_animales);// recycler es el nombre del recycler view cambiarlo por el que se le ponga
+        listaAnimales = new ArrayList();
+        listaAnimales.add(new Animal(1,"Misha",R.drawable.ic_user_black_24dp,"Gato","Desconocido",new Date(2018,4,20),true));
+        listaAnimales.add(new Animal(2,"Jacinta",R.drawable.ic_user_black_24dp,"Perro","Maltes",new Date(2007,5,1),true));
+        listaAnimales.add(new Animal(1,"Frank",R.drawable.ic_user_black_24dp,"Perro","Pug",new Date(1920,1,20),false));
 
+
+        AnimalAdapter adapter = new AnimalAdapter(this,R.layout.item_animal,(Animal[]) listaAnimales.toArray());
+        listViewAnimales = findViewById(R.id.lista_animales);
+        listViewAnimales.setAdapter(adapter);
 
     }
 
