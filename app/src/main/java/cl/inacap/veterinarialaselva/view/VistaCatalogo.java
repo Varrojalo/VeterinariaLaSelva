@@ -28,16 +28,16 @@ public class VistaCatalogo extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_catalogo);
-
+        listViewAnimales = findViewById(R.id.lista_animales);
         listaAnimales = new ArrayList();
-        listaAnimales.add(new Animal(1,"Misha",R.drawable.ic_user_black_24dp,"Gato","Desconocido",new Date(2018,4,20),true));
-        listaAnimales.add(new Animal(2,"Jacinta",R.drawable.ic_user_black_24dp,"Perro","Maltes",new Date(2007,5,1),true));
-        listaAnimales.add(new Animal(1,"Frank",R.drawable.ic_user_black_24dp,"Perro","Pug",new Date(1920,1,20),false));
+        listaAnimales.add(new Animal(1,"Misha",R.drawable.ic_user_black_24dp,"Gato","Desconocido",new Date(2018-1900,4-1,20),true));
+        listaAnimales.add(new Animal(2,"Jacinta",R.drawable.ic_user_black_24dp,"Perro","Maltes",new Date(2007-1900,5-1,1),true));
+        listaAnimales.add(new Animal(1,"Frank",R.drawable.ic_user_black_24dp,"Perro","Pug",new Date(1920-1900,1-1,20),false));
 
         Animal[] data = new Animal[listaAnimales.size()];
         data = listaAnimales.toArray(data);
-        AnimalAdapter adapter = new AnimalAdapter(this,R.layout.item_animal, data);
-        listViewAnimales = findViewById(R.id.lista_animales);
+        AnimalAdapter adapter = new AnimalAdapter(this.getApplicationContext(),R.layout.item_animal, data);
+
         listViewAnimales.setAdapter(adapter);
 
     }

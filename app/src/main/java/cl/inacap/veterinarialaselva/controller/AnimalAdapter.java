@@ -22,9 +22,9 @@ public class AnimalAdapter extends ArrayAdapter<Animal> {
     public AnimalAdapter(Context context, int layoutResourceId,Animal[] data)
     {
         super(context,layoutResourceId,data);
-        context = context;
-        layoutResourceId = layoutResourceId;
-        data = data;
+        this.context = context;
+        this.layoutResourceId = layoutResourceId;
+        this.data = data;
     }
 
     public View getView(int position, View convertView, ViewGroup parent)
@@ -34,10 +34,11 @@ public class AnimalAdapter extends ArrayAdapter<Animal> {
 
         if(row == null)
         {
+            holder = new AnimalHolder();
             LayoutInflater inflater = LayoutInflater.from(context);
             row = inflater.inflate(layoutResourceId,parent,false);
 
-            holder = new AnimalHolder();
+
             holder.foto = (ImageView)row.findViewById(R.id.fotoAnimal);
             holder.edad = (TextView)row.findViewById(R.id.edadAnimal);
             holder.nombre = (TextView)row.findViewById(R.id.nombreAnimal);
@@ -48,7 +49,7 @@ public class AnimalAdapter extends ArrayAdapter<Animal> {
         }
 
         Animal animal = data[position];
-        holder.edad.setText(animal.getEdad());
+        holder.edad.setText(animal.getRaza()));
         holder.nombre.setText(animal.getNombre());
         holder.foto.setImageResource(animal.getFoto());
 
