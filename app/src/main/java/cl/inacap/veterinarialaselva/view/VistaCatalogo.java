@@ -34,8 +34,9 @@ public class VistaCatalogo extends AppCompatActivity {
         listaAnimales.add(new Animal(2,"Jacinta",R.drawable.ic_user_black_24dp,"Perro","Maltes",new Date(2007,5,1),true));
         listaAnimales.add(new Animal(1,"Frank",R.drawable.ic_user_black_24dp,"Perro","Pug",new Date(1920,1,20),false));
 
-
-        AnimalAdapter adapter = new AnimalAdapter(this,R.layout.item_animal,(Animal[]) listaAnimales.toArray());
+        Animal[] data = new Animal[listaAnimales.size()];
+        data = listaAnimales.toArray(data);
+        AnimalAdapter adapter = new AnimalAdapter(this,R.layout.item_animal, data);
         listViewAnimales = findViewById(R.id.lista_animales);
         listViewAnimales.setAdapter(adapter);
 

@@ -22,6 +22,9 @@ public class AnimalAdapter extends ArrayAdapter<Animal> {
     public AnimalAdapter(Context context, int layoutResourceId,Animal[] data)
     {
         super(context,layoutResourceId,data);
+        context = context;
+        layoutResourceId = layoutResourceId;
+        data = data;
     }
 
     public View getView(int position, View convertView, ViewGroup parent)
@@ -31,7 +34,7 @@ public class AnimalAdapter extends ArrayAdapter<Animal> {
 
         if(row == null)
         {
-            LayoutInflater inflater = ((Activity)context).getLayoutInflater();
+            LayoutInflater inflater = LayoutInflater.from(context);
             row = inflater.inflate(layoutResourceId,parent,false);
 
             holder = new AnimalHolder();

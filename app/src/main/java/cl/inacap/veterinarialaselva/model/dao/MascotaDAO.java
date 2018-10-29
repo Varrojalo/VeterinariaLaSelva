@@ -48,14 +48,14 @@ public class MascotaDAO extends Conexion{
                 Usuario usuario = new Usuario();
                 usuario.setId(rs.getInt(4));
                 usuario.setNombre(rs.getString(5));
-                usuario.setFoto(rs.getString(6));
+                usuario.setFoto(rs.getInt(6));
                 usuario.setContracena(rs.getString(7));
                 usuario.setCorreo(rs.getString(8));
                 mascota.setUsuario(usuario);
                 Animal animal = new Animal();
                 animal.setId(rs.getInt(9));
                 animal.setNombre(rs.getString(10));
-                animal.setFoto(rs.getString(11));
+                animal.setFoto(rs.getInt(11));
                 animal.setEspecie(rs.getString(12));
                 animal.setRaza(rs.getString(13));
                 animal.setNacimiento(rs.getDate(14));

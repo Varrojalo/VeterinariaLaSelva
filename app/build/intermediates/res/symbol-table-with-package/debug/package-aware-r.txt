@@ -820,6 +820,7 @@ drawable ic_catalog_black_24dp
 drawable ic_home_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ic_search_black_24dp
 drawable ic_user_black_24dp
 drawable navigation_empty_icon
 drawable notification_action_background
@@ -859,6 +860,7 @@ id action_menu_presenter
 id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
+id action_search
 id action_text
 id actions
 id activity_chooser_view_content
@@ -1212,6 +1214,7 @@ string abc_toolbar_collapse_description
 string app_name
 string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
+string busqueda
 string character_counter_pattern
 string common_google_play_services_enable_button
 string common_google_play_services_enable_text
