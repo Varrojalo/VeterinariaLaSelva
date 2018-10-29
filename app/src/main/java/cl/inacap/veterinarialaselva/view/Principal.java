@@ -6,6 +6,8 @@ import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 import android.widget.TextView;
 
 import cl.inacap.veterinarialaselva.R;
@@ -40,6 +42,12 @@ public class Principal extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_principal);
+
+        ListView listaServicios = (ListView)findViewById(R.id.lista_servicios);
+
+        ArrayAdapter<CharSequence> adaptador= ArrayAdapter.createFromResource(this,R.array.listaServicios,android.R.layout.simple_list_item_1);
+
+        listaServicios.setAdapter(adaptador);
 
         mTextMessage = (TextView) findViewById(R.id.message);
         BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navegacionPrincipal);
