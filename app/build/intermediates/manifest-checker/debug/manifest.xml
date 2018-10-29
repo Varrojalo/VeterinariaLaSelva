@@ -30,30 +30,23 @@
         android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="cl.inacap.veterinarialaselva.view.Principal"
-            android:label="@string/title_home" >
-        </activity>
+            android:name="cl.inacap.veterinarialaselva.view.Carga"
+            android:label="@string/app_name" />
         <activity
-            android:name="cl.inacap.veterinarialaselva.view.VistaCatalogo"
-            android:label="@string/title_catalog" >
+            android:name="cl.inacap.veterinarialaselva.view.InicioSesion"
+            android:label="@string/app_name" />
+        <activity android:name="cl.inacap.veterinarialaselva.view.VistaAnimal" />
+        <activity android:name="cl.inacap.veterinarialaselva.view.Registro" />
+        <activity android:name="cl.inacap.veterinarialaselva.view.Adopcion" />
+        <activity
+            android:name="cl.inacap.veterinarialaselva.view.main"
+            android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="cl.inacap.veterinarialaselva.view.VistaUsuario" />
-        <activity
-            android:name="cl.inacap.veterinarialaselva.view.Carga"
-            android:label="@string/app_name" >
-        </activity>
-        <activity
-            android:name="cl.inacap.veterinarialaselva.view.InicioSesion"
-            android:label="@string/app_name" >
-        </activity>
-        <activity android:name="cl.inacap.veterinarialaselva.view.VistaAnimal" />
-        <activity android:name="cl.inacap.veterinarialaselva.view.Registro" />
-        <activity android:name="cl.inacap.veterinarialaselva.view.Adopcion" />
 
         <service android:name="com.google.firebase.components.ComponentDiscoveryService" >
             <meta-data

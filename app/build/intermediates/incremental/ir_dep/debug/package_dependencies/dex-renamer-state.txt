@@ -1,4 +1,4 @@
-#Mon Oct 29 02:04:23 CLST 2018
+#Mon Oct 29 19:23:40 CLST 2018
 base.0=C\:\\Users\\AlonsoRV\\Google Drive\\VeterinariaLaSelva\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\10
 path.0=classes.dex
 renamed.0=classes.dex

@@ -16,7 +16,7 @@ anim design_bottom_sheet_slide_out
 anim design_snackbar_in
 anim design_snackbar_out
 animator design_appbar_state_list_animator
-array listaServicios
+array lista_Servicios
 attr actionBarDivider
 attr actionBarItemBackground
 attr actionBarPopupTheme
@@ -964,7 +964,6 @@ id invisible
 id italic
 id item_touch_helper_previous_elevation
 id largeLabel
-id layout_animales
 id left
 id light
 id line1
@@ -982,7 +981,6 @@ id message
 id middle
 id mini
 id multiply
-id navegacion
 id navegacionPrincipal
 id navigation_catalog
 id navigation_header_container
@@ -1144,12 +1142,9 @@ layout abc_tooltip
 layout activity_adopcion
 layout activity_animal
 layout activity_carga
-layout activity_catalogo
 layout activity_inicio_sesion
 layout activity_main
-layout activity_principal
 layout activity_registro
-layout activity_usuario
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar

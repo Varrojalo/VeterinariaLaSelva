@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="listaServicios">
+    <string-array name="lista_Servicios">
         <item>Diagnostico</item>
         <item>Adopcion de animales</item>
         <item>Hotel Canino</item>

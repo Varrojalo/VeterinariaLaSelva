@@ -73,7 +73,12 @@ public class UsuarioDAO extends Conexion{
             this.desconectar();
         }
     }
-
+    //TODO: IMPLEMENTAR ESTE METODO!
+    public Usuario obtenerUsuario(int idUsuario)
+    {
+        Usuario usuario = new Usuario();
+        return usuario;
+    }
     public ArrayList<Usuario> obtenerUsuarios2()
     {
         ArrayList<Usuario> usuarios = new ArrayList();

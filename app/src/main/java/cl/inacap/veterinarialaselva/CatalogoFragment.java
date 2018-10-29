@@ -3,6 +3,7 @@ package cl.inacap.veterinarialaselva;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -34,7 +35,12 @@ public class CatalogoFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,Bundle savedInstanceState) {
-        listViewAnimales = container.findViewById(R.id.lista_animales);
+        return inflater.inflate(R.layout.fragment_catalogo, container, false);
+    }
+
+    @Override
+    public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
+        listViewAnimales = getView().findViewById(R.id.lista_animales);
         listaAnimales = new ArrayList();
         listaAnimales.add(new Animal(1,"Misha",R.drawable.ic_user_black_24dp,"Gato","Desconocido",new Date(2018-1900,4-1,20),true));
         listaAnimales.add(new Animal(2,"Jacinta",R.drawable.ic_user_black_24dp,"Perro","Maltes",new Date(2007-1900,5-1,1),true));
@@ -42,7 +48,7 @@ public class CatalogoFragment extends Fragment {
 
         Animal[] data = new Animal[listaAnimales.size()];
         data = listaAnimales.toArray(data);
-        AnimalAdapter adapter = new AnimalAdapter(this.getActivity().getApplicationContext(),R.layout.item_animal, data);
+        AnimalAdapter adapter = new AnimalAdapter(this.getContext(),R.layout.item_animal, data);
 
         listViewAnimales.setAdapter(adapter);
 
@@ -50,16 +56,14 @@ public class CatalogoFragment extends Fragment {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 TextView v = (TextView)view.findViewById(R.id.idAnimal);
-                Toast.makeText(getActivity().getApplicationContext(),v.getText(),Toast.LENGTH_SHORT).show();
+                Toast.makeText(getContext(),v.getText(),Toast.LENGTH_SHORT).show();
                 int idAnimal = Integer.parseInt(v.getText().toString());
-                Intent intent = new Intent(getActivity().getBaseContext(), VistaAnimal.class);
-                intent.putExtra("ANIMAL_ID", idAnimal);
-                intent.putExtra("LISTA_ANIMALES", listaAnimales);
-                startActivity(intent);
+                //Intent intent = new Intent(getContext(), VistaAnimal.class);
+                //intent.putExtra("ANIMAL_ID", idAnimal);
+                //intent.putExtra("LISTA_ANIMALES", listaAnimales);
+                //startActivity(intent);
             }
         });
-
-        return inflater.inflate(R.layout.fragment_catalogo, container, false);
     }
 
 }

@@ -49,7 +49,7 @@ public class InicioSesion extends AppCompatActivity {
         if(usuarioEncontrado)
         {
             //usuario Encontrado! INICIA SESION
-            Intent intento = new Intent(InicioSesion.this,Principal.class);
+            Intent intento = new Intent(InicioSesion.this,main.class);
             InicioSesion.this.startActivity(intento);
         }
         else

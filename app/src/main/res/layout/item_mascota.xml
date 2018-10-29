@@ -6,7 +6,7 @@
     android:layout_height="wrap_content">
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/fotoMascota"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -16,27 +16,40 @@
         tools:srcCompat="@tools:sample/avatars[2]" />
 
     <TextView
-        android:id="@+id/textView7"
+        android:id="@+id/nombreMascota"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_marginStart="26dp"
         android:layout_marginTop="26dp"
-        android:layout_toEndOf="@+id/imageView4"
+        android:layout_toEndOf="@+id/fotoMascota"
         android:text="NOMBRE"
         android:textColor="@color/colorTextDark"
         android:textSize="20sp"
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/fechaAdopcionMascota"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_marginStart="25dp"
         android:layout_marginTop="76dp"
-        android:layout_toEndOf="@+id/imageView4"
+        android:layout_toEndOf="@+id/fotoMascota"
         android:text="FechaAdopcion"
         android:textColor="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/idMascota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="317dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="9dp"
+        android:text="TextView"
+        android:visibility="invisible" />
 
 </RelativeLayout>

@@ -72,7 +72,12 @@ public class MascotaDAO extends Conexion{
             this.desconectar();
         }
     }
-
+    //TODO: IMPLEMENTAR ESTE METODO!
+    public ArrayList<Mascota> obtenerMascotasUsuario(Usuario usuario)
+    {
+        ArrayList<Mascota> mascotas = new ArrayList();
+        return mascotas;
+    }
     public void eliminarMascota(int idUsuario, int idAnimal){
         try{
             this.conectar();

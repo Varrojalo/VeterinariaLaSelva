@@ -13,19 +13,6 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".view.Principal"
-            android:label="@string/title_home"></activity>
-        <activity
-            android:name=".view.VistaCatalogo"
-            android:label="@string/title_catalog">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".view.VistaUsuario" />
-        <activity
             android:name=".view.Carga"
             android:label="@string/app_name"></activity>
         <activity
@@ -34,7 +21,15 @@
         <activity android:name=".view.VistaAnimal" />
         <activity android:name=".view.Registro" />
         <activity android:name=".view.Adopcion" />
-        <activity android:name=".view.main"></activity>
+        <activity
+            android:name=".view.main"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
