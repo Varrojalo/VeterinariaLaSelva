@@ -14,7 +14,7 @@ import android.widget.TextView;
 import cl.inacap.veterinarialaselva.R;
 import cl.inacap.veterinarialaselva.model.dto.Animal;
 
-public class AnimalAdapter extends ArrayAdapter<Animal> {
+public class AnimalAdapter extends ArrayAdapter<Animal>{
     private Context context;
     private int layoutResourceId;
     private Animal[] data = null;
@@ -42,6 +42,7 @@ public class AnimalAdapter extends ArrayAdapter<Animal> {
             holder.foto = (ImageView)row.findViewById(R.id.fotoAnimal);
             holder.edad = (TextView)row.findViewById(R.id.edadAnimal);
             holder.nombre = (TextView)row.findViewById(R.id.nombreAnimal);
+            holder.id = (TextView)row.findViewById(R.id.idAnimal);
             row.setTag(holder);
         }
         else{
@@ -52,13 +53,17 @@ public class AnimalAdapter extends ArrayAdapter<Animal> {
         holder.edad.setText(animal.getRaza());
         holder.nombre.setText(animal.getNombre());
         holder.foto.setImageResource(animal.getFoto());
-
+        holder.id.setText(String.valueOf(animal.getId()));
         return row;
     }
+
+
+
     static class AnimalHolder
     {
         ImageView foto;
         TextView nombre;
         TextView edad;
+        TextView id;
     }
 }

@@ -33,6 +33,7 @@ public class Principal extends AppCompatActivity {
                     return true;
                 case R.id.navigation_user:
                     mTextMessage.setText(R.string.title_user);
+                    return true;
             }
             return false;
         }

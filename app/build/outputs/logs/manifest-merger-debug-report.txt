@@ -128,13 +128,13 @@ MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] C:\Us
 activity#cl.inacap.veterinarialaselva.view.Principal
 ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:13:9-16:20
 	android:label
-		ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:15:13-45
+		ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:15:13-47
 	android:name
 		ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:14:13-43
 activity#cl.inacap.veterinarialaselva.view.VistaCatalogo
 ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:17:9-25:20
 	android:label
-		ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:19:13-45
+		ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:19:13-50
 	android:name
 		ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:18:13-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER

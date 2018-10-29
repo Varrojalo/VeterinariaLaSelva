@@ -508,6 +508,7 @@ color foreground_material_dark
 color foreground_material_light
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color ic_launcher_background
 color material_blue_grey_800
 color material_blue_grey_900
 color material_blue_grey_950
@@ -818,6 +819,7 @@ drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_booking_black_24dp
 drawable ic_catalog_black_24dp
+drawable ic_foreground
 drawable ic_home_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -942,6 +944,7 @@ id homeAsUp
 id icon
 id icon_group
 id icon_only
+id idAnimal
 id ifRoom
 id image
 id imageView2
@@ -1181,8 +1184,10 @@ layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
 menu navigation
+mipmap frank
 mipmap ic_launcher
 mipmap ic_launcher_round
+mipmap veterinarialaselva
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description

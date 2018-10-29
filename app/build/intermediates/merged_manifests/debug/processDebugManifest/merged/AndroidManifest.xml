@@ -31,11 +31,11 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name="cl.inacap.veterinarialaselva.view.Principal"
-            android:label="@string/app_name" >
+            android:label="@string/title_home" >
         </activity>
         <activity
             android:name="cl.inacap.veterinarialaselva.view.VistaCatalogo"
-            android:label="@string/app_name" >
+            android:label="@string/title_catalog" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
