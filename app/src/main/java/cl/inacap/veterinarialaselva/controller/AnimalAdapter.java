@@ -49,7 +49,7 @@ public class AnimalAdapter extends ArrayAdapter<Animal> {
         }
 
         Animal animal = data[position];
-        holder.edad.setText(animal.getRaza()));
+        holder.edad.setText(animal.getRaza());
         holder.nombre.setText(animal.getNombre());
         holder.foto.setImageResource(animal.getFoto());
 
