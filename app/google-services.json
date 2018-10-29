@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "382006031904",
+    "firebase_url": "https://veterinarialaselva-220621.firebaseio.com",
+    "project_id": "veterinarialaselva-220621",
+    "storage_bucket": "veterinarialaselva-220621.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:382006031904:android:8a14de9b40c231e0",
+        "android_client_info": {
+          "package_name": "cl.inacap.veterinarialaselva"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "382006031904-oka44vmgt417hgv6re6dvsr4vrsls02j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cl.inacap.veterinarialaselva",
+            "certificate_hash": "7e0e86e014d262426e756eec606cf5f7d4058615"
+          }
+        },
+        {
+          "client_id": "382006031904-7j5e23crrib83d8kduukphdd3gnpb5k1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-AJ0EuIqB6ubJU5SmlTmfAPdibpPLoxw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "382006031904-7j5e23crrib83d8kduukphdd3gnpb5k1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
