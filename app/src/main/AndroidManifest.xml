@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="cl.inacap.veterinarialaselva">
+
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -12,8 +14,7 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".view.Principal"
-            android:label="@string/title_home">
-        </activity>
+            android:label="@string/title_home"></activity>
         <activity
             android:name=".view.VistaCatalogo"
             android:label="@string/title_catalog">
@@ -26,16 +27,14 @@
         <activity android:name=".view.VistaUsuario" />
         <activity
             android:name=".view.Carga"
-            android:label="@string/app_name">
-
-        </activity>
+            android:label="@string/app_name"></activity>
         <activity
             android:name=".view.InicioSesion"
-            android:label="@string/app_name">
-        </activity>
+            android:label="@string/app_name"></activity>
         <activity android:name=".view.VistaAnimal" />
         <activity android:name=".view.Registro" />
-        <activity android:name=".view.Adopcion"></activity>
+        <activity android:name=".view.Adopcion" />
+        <activity android:name=".view.main"></activity>
     </application>
 
 </manifest>

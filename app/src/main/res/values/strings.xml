@@ -8,4 +8,7 @@
     <string name="tab_animales">ANIMALES</string>
     <string name="tab_productos">PRODUCTOS</string>
     <string name="desc_adopcion">Esta por adoptar a $NOMBRE$, para esto debe acercarse a la veterinaria para empezar los papeles de adopcion. Porfavor, escoja la hora y la fecha de su atencion para empezar los papeles de adopcion.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

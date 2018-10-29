@@ -1,15 +1,14 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:2:1-41:12
+ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:2:1-40:12
 MERGED from [com.google.firebase:firebase-core:16.0.1] C:\Users\AlonsoRV\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.1.aar\9b20b92b1668ccd04ff9e53866b17e88\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-database:16.0.1] C:\Users\AlonsoRV\.gradle\caches\transforms-1\files-1.1\firebase-database-16.0.1.aar\c57d67b461dcc5902cb190f31c4b2abb\AndroidManifest.xml:2:1-8:12
 MERGED from [com.android.support:design:27.1.1] C:\Users\AlonsoRV\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\fe375a694d31e3a1ec428573c265dec9\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\AlonsoRV\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\d1238cd3020502f1299fc0ddf7061ae9\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\AlonsoRV\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\fc5a5ae06f6ae81cc594e4161e45db17\AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\AlonsoRV\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\427381e201e07de4b6f80044ec3cdb58\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\AlonsoRV\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\cb51169bfa02498ce56c806ea451b91c\AndroidManifest.xml:17:1-34:12
 MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\AlonsoRV\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\ac6d5d55d7aa8b0aaa9b950ccee675cf\AndroidManifest.xml:17:1-55:12
 MERGED from [com.google.firebase:firebase-database-connection:16.0.1] C:\Users\AlonsoRV\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-16.0.1.aar\87474fe11cd4691af189cb4cd5a70b1f\AndroidManifest.xml:2:1-10:12
@@ -25,6 +24,7 @@ MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] C:\Users
 MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\AlonsoRV\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-15.0.1.aar\93db03ecb2b22e757dc6c9a11e753dba\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\AlonsoRV\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\711b43002f76fc48faeed9d631e614e4\AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-v4:27.1.1] C:\Users\AlonsoRV\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\5019ed9e5f7e59a061393087166b5585\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\AlonsoRV\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\427381e201e07de4b6f80044ec3cdb58\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\AlonsoRV\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\b102eef9635db8cb183e88ec2316730b\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\AlonsoRV\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\068c823b46031b2a13bb5719700e3773\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\AlonsoRV\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\09dc2d3f9a0fc690836e210042e42e40\AndroidManifest.xml:17:1-22:12
@@ -38,25 +38,25 @@ MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\AlonsoRV\.grad
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\AlonsoRV\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\2525a45c5b321f9c137b885717d5a834\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\AlonsoRV\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\1a07f9b645dd85b6106d08436259d6e5\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\AlonsoRV\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\0b84356bae5b3427ff305bc2ec11230c\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:2:1-40:12
 	package
 		ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:3:5-43
 		INJECTED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:2:1-41:12
+		ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:2:1-40:12
 		INJECTED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:2:1-41:12
+		ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:2:1-40:12
 		INJECTED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:4:5-67
+ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:5:5-67
 MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\AlonsoRV\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\cb51169bfa02498ce56c806ea451b91c\AndroidManifest.xml:22:5-67
 MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\AlonsoRV\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\cb51169bfa02498ce56c806ea451b91c\AndroidManifest.xml:22:5-67
 MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\AlonsoRV\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\ac6d5d55d7aa8b0aaa9b950ccee675cf\AndroidManifest.xml:23:5-67
@@ -68,9 +68,9 @@ MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\Alonso
 MERGED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\AlonsoRV\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.0.0.aar\5172801a0d5dc56a2e72cb4119f88f80\AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\AlonsoRV\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.0.0.aar\5172801a0d5dc56a2e72cb4119f88f80\AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:4:22-64
+		ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:5:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:5:5-79
+ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:6:5-79
 MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\AlonsoRV\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\cb51169bfa02498ce56c806ea451b91c\AndroidManifest.xml:23:5-79
 MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\AlonsoRV\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\cb51169bfa02498ce56c806ea451b91c\AndroidManifest.xml:23:5-79
 MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\AlonsoRV\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\ac6d5d55d7aa8b0aaa9b950ccee675cf\AndroidManifest.xml:24:5-79
@@ -80,9 +80,9 @@ MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\Alonso
 MERGED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\AlonsoRV\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.0.0.aar\5172801a0d5dc56a2e72cb4119f88f80\AndroidManifest.xml:22:5-79
 MERGED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\AlonsoRV\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.0.0.aar\5172801a0d5dc56a2e72cb4119f88f80\AndroidManifest.xml:22:5-79
 	android:name
-		ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:5:22-76
+		ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:6:22-76
 application
-ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:6:5-39:19
+ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:8:5-38:19
 MERGED from [com.google.firebase:firebase-core:16.0.1] C:\Users\AlonsoRV\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.1.aar\9b20b92b1668ccd04ff9e53866b17e88\AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-core:16.0.1] C:\Users\AlonsoRV\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.1.aar\9b20b92b1668ccd04ff9e53866b17e88\AndroidManifest.xml:7:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\AlonsoRV\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\fc5a5ae06f6ae81cc594e4161e45db17\AndroidManifest.xml:9:5-20
@@ -114,67 +114,71 @@ MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Alon
 MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] C:\Users\AlonsoRV\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.0.aar\04d4026da958c41041c853cf7659beb8\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] C:\Users\AlonsoRV\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.0.aar\04d4026da958c41041c853cf7659beb8\AndroidManifest.xml:22:5-20
 	android:supportsRtl
-		ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:11:9-35
+		ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:13:9-35
 	android:label
-		ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:9:9-41
+		ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:11:9-41
 	android:roundIcon
-		ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:10:9-54
+		ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:12:9-54
 	android:icon
-		ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:8:9-43
+		ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:10:9-43
 	android:allowBackup
-		ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:7:9-35
+		ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:12:9-40
+		ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:14:9-40
 activity#cl.inacap.veterinarialaselva.view.Principal
-ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:13:9-16:20
+ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:15:9-17:59
 	android:label
-		ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:15:13-47
+		ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:17:13-47
 	android:name
-		ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:14:13-43
+		ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:16:13-43
 activity#cl.inacap.veterinarialaselva.view.VistaCatalogo
-ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:17:9-25:20
+ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:18:9-26:20
 	android:label
-		ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:19:13-50
+		ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:20:13-50
 	android:name
-		ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:18:13-47
+		ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:19:13-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:20:13-24:29
+ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:21:13-25:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:21:17-69
+ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:22:17-69
 	android:name
-		ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:21:25-66
+		ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:22:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:23:17-77
+ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:24:17-77
 	android:name
-		ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:23:27-74
+		ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:24:27-74
 activity#cl.inacap.veterinarialaselva.view.VistaUsuario
-ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:26:9-55
+ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:27:9-55
 	android:name
-		ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:26:19-52
+		ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:27:19-52
 activity#cl.inacap.veterinarialaselva.view.Carga
-ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:27:9-31:20
+ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:28:9-30:57
 	android:label
-		ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:29:13-45
+		ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:30:13-45
 	android:name
-		ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:28:13-39
+		ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:29:13-39
 activity#cl.inacap.veterinarialaselva.view.InicioSesion
-ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:32:9-35:20
+ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:31:9-33:57
 	android:label
-		ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:34:13-45
+		ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:33:13-45
 	android:name
-		ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:33:13-46
+		ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:32:13-46
 activity#cl.inacap.veterinarialaselva.view.VistaAnimal
-ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:36:9-54
+ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:34:9-54
 	android:name
-		ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:36:19-51
+		ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:34:19-51
 activity#cl.inacap.veterinarialaselva.view.Registro
-ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:37:9-51
+ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:35:9-51
 	android:name
-		ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:37:19-48
+		ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:35:19-48
 activity#cl.inacap.veterinarialaselva.view.Adopcion
-ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:38:9-60
+ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:36:9-51
 	android:name
-		ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:38:19-48
+		ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:36:19-48
+activity#cl.inacap.veterinarialaselva.view.main
+ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:37:9-56
+	android:name
+		ADDED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml:37:19-44
 uses-sdk
 INJECTED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\AlonsoRV\Google Drive\VeterinariaLaSelva\app\src\main\AndroidManifest.xml
@@ -189,8 +193,6 @@ MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\AlonsoRV\.gradle\
 MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\AlonsoRV\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\d1238cd3020502f1299fc0ddf7061ae9\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\AlonsoRV\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\fc5a5ae06f6ae81cc594e4161e45db17\AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\AlonsoRV\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\fc5a5ae06f6ae81cc594e4161e45db17\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\AlonsoRV\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\427381e201e07de4b6f80044ec3cdb58\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\AlonsoRV\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\427381e201e07de4b6f80044ec3cdb58\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\AlonsoRV\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\cb51169bfa02498ce56c806ea451b91c\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\AlonsoRV\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\cb51169bfa02498ce56c806ea451b91c\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\AlonsoRV\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\ac6d5d55d7aa8b0aaa9b950ccee675cf\AndroidManifest.xml:20:5-44
@@ -221,6 +223,8 @@ MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Alon
 MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\AlonsoRV\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\711b43002f76fc48faeed9d631e614e4\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:27.1.1] C:\Users\AlonsoRV\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\5019ed9e5f7e59a061393087166b5585\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:27.1.1] C:\Users\AlonsoRV\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\5019ed9e5f7e59a061393087166b5585\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\AlonsoRV\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\427381e201e07de4b6f80044ec3cdb58\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\AlonsoRV\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\427381e201e07de4b6f80044ec3cdb58\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\AlonsoRV\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\b102eef9635db8cb183e88ec2316730b\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\AlonsoRV\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\b102eef9635db8cb183e88ec2316730b\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\AlonsoRV\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\068c823b46031b2a13bb5719700e3773\AndroidManifest.xml:20:5-44
